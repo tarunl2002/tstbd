@@ -1,0 +1,136 @@
+body{
+    background: #051522;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 98px;
+text-align: center;
+
+
+
+}
+
+.card{
+    background: #D9D9D9;
+    border-radius: 32px;
+    width: 283px;
+    height: 440px;
+    margin: auto;
+
+}
+.end{
+    position: absolute;
+
+font-family: 'Montserrat';
+font-style: normal;
+
+text-align: center;
+
+color: #FFFFFF;
+margin:auto;
+margin-top:5rem;
+
+}
+.end1{
+    display: flex;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.prdcrd{
+   
+    box-shadow: 0px 0px 1px 1px #EAEAEA;
+    border-radius: 5px;
+    margin-right: 0px;
+    padding: 10px;
+   display:flex;
+    margin-bottom:30px;
+    
+    margin:auto;
+    margin-bottom:2rem;
+     
+    
+
+width: 300px;
+height: 320px;
+
+background: #051522;
+border-radius: 10px;
+}
+
+.column {
+    float:left;
+    width: 16%;
+  }.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
+.grid-container {
+    display: grid;
+    
+width: 300px;
+height: 320px;
+
+background: #051522;
+border-radius: 10px;
+display:flex;
+margin-left: 2rem;
+margin-right: 2rem;
+margin-bottom:2rem;
+  }
+  .container{
+    width: 35px;
+height: 50px;
+left: -1289px;
+top: 5561px;
+
+background: #D9D9D9;
+border-radius: 72px;
+margin-right:20rem;
+margin-bottom:3rem;
+  }
+  .custom-select{
+    width: 85px;
+    height: 50px;
+    left: -1289px;
+    top: 5561px;
+    
+    background: #D9D9D9;
+    border-radius: 10px;
+    margin-right:20rem;
+    margin-bottom:5rem;
+
+  }
+  Grid{
+    height:10rem;
+  }
+  .dark{
+    display: flex;
+    background-color: #051522;
+    align-items: center;
+    height: 16rem;
+    width: 14.52rem;
+    margin-left:.0001rem;
+    
+    margin-bottom: 5rem;
+  }
+  @media only screen and (max-width: 600px) {
+    .dark{
+      
+      height: 16rem;
+      width:16.25rem;
+      align-items: center;}
+      .end{
+        text-align: center;
+      }
+    }
