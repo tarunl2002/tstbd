@@ -7,6 +7,9 @@
     height: 100vh;
     justify-content: center;
 }
+.t3>h3{
+    color: #000;
+}
 .box1 {
     position: absolute;
     overflow: hidden;
