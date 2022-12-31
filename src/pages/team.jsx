@@ -19,9 +19,9 @@ const Item = styled(Paper)(({ theme }) => ({
 const Team = () => {
 
   return (
-    <div>
-      <div className="heading">
-        <h1>Team</h1>
+    <div id="heading">
+      <div className="heading" >
+        <h1 className="team">Team</h1>
       </div>
       <div>
         <div className="container">
@@ -30,18 +30,19 @@ const Team = () => {
             <option value="3rd year">3rd year</option>
             <option value="2nd year">2nd year</option>
           </select>
-        </div></div>
+        </div>
+      </div>
       <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-        {Array.from(Array(6)).map((_, index) => (
-          <Grid item xs={3.5} sm={2} md={3} key={index}>
-            <Item> 
-              <div className='dark'></div>
-            </Item>
-          </Grid>
-        ))}
-      </Grid>
-    </Box>
+        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+          {Array.from(Array(6)).map((_, index) => (
+            <Grid item xs={3.5} sm={2} md={3} key={index}>
+              <Item> 
+                <div className='dark'></div>
+              </Item>
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
       <div className="end"><h3> Creativity Inspires Our Implementation</h3>
         <p class="end1">We at BDCOE, are a passionate group of people who work towards bringing a change in the ecosystem of development around the campus. We want to create a healthy environment for the budding developers to exploring solutions to real life problems and promote the developer culture.</p>
       </div>

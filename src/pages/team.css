@@ -1,14 +1,14 @@
-body{
-    background: #051522;
-}
 
-.heading{
+
+#heading{
     text-align: center;
     font-family: 'Montserrat';
+    background: #051522;
+    color: #FFFFFF;
 }
 
 h1{
-    color: #FFFFFF;
+    
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -29,6 +29,7 @@ text-align: center;
 
 }
 .end{
+  background: #051522;
     position: absolute;
 
 font-family: 'Montserrat';
@@ -38,7 +39,7 @@ text-align: center;
 
 color: #FFFFFF;
 margin:auto;
-margin-top:5rem;
+padding-top:5rem;
 
 }
 .end1{
