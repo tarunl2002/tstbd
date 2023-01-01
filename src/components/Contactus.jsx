@@ -14,27 +14,27 @@ const Contactus = () => {
                     <h3>www.bdcoe.ac.in</h3>
                 </div>
                 <div className="con-right">
-                    <div class="shade">
-                        <div class="blackboard">
-                            <div class="form">
-                                <p>
-                                    {/* <label>Name: </label> */}
-                                    <input type="text" placeholder='Name' />
-                                </p>
-                                <p>
-                                    {/* <label>Email: </label> */}
-                                    <input type="text" placeholder='email' />
-                                </p>
-                                <p>
-                                    {/* <label>Message: </label> */}
-                                    <textarea placeholder='Your message here...'></textarea>
-                                </p>
-                                <p class="wipeout">
-                                    <input type="submit" value="Send" />
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="shade">
+		            <div class="blackboard">
+		            		<div class="form">
+		            				<p>
+		            						{/* <label>Name: </label> */}
+		            						<input type="text" placeholder='Name' />
+		            				</p>
+		            				<p>
+		            						{/* <label>Email: </label> */}
+		            						<input type="email" placeholder='email' />
+		            				</p>
+		            				<p>
+		            						{/* <label>Message: </label> */}
+		            						<textarea placeholder='Your message here...'></textarea>
+		            				</p>
+		            				<p class="wipeout">
+		            						<input type="submit" value="Send" />
+		            				</p>
+		            		</div>
+		            </div>
+                </div>
                 </div>
             </div>
         </div>
