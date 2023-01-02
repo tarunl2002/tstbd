@@ -1,6 +1,8 @@
+
 html{
     scroll-behavior: smooth;
 }
+
 body{
     background:  #EFF5F5;
 }
@@ -55,7 +57,9 @@ body{
 .mapouter{
     position:relative;
     text-align:right;
+
     width:90%;
+
     height:400px;
     padding: 50px;
 }    
@@ -117,4 +121,5 @@ body{
     .mapouter{
         padding-left: 35px;
     }
+
 }

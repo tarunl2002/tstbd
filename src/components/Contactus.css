@@ -92,7 +92,6 @@ textarea {
     height: 120px;
     font-size: 1.4em;
     line-height: 1em;
-    border-style: dotted;
 }
 
 input[type="submit"] {
@@ -129,8 +128,5 @@ input[type="submit"]:focus {
 @media (max-width: 650px){
     .con-body{
         flex-direction: column;
-    }
-    .contact{
-        width: 100%;
     }
 }
